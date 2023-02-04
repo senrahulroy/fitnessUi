@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../../main_project/ui/utils/colors_rp.dart';
+import 'package:ui_app_fitness/main_project/ui/utils/colors_rp.dart';
 
 Widget floatingBtn(VoidCallback onTap) => Row(
       mainAxisAlignment: MainAxisAlignment.end,

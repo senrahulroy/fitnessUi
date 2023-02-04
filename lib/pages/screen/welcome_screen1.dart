@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 // import 'package:flutter/rendering.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:ui_app_fitness/const/colors.dart';
+import 'package:ui_app_fitness/main_project/ui/utils/colors_rp.dart';
 import 'package:ui_app_fitness/const/routs/routesname.dart';
 import 'package:ui_app_fitness/const/string.dart';
 import 'package:ui_app_fitness/const/widget/large_text.dart';
