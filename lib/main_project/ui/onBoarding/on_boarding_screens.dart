@@ -34,7 +34,8 @@ class OnBoardingScreen extends StatelessWidget {
                 ),
               ),
               Text(onBoardingWatch.lastPage.toString()),
-              // Text(pageController.position.toString()),
+              // Text(onBoardingWatch.),
+              // Text(onBoardingWatch.pageController.position.toString()),
               SizedBox(
                 height: 120.h,
                 width: double.infinity,

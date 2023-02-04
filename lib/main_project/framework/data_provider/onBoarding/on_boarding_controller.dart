@@ -14,6 +14,7 @@ class OnBoardingController extends ChangeNotifier {
   updatePage() {
     pageController.nextPage(
         duration: const Duration(milliseconds: 300), curve: Curves.ease);
+    String   name = pageController.position as String;
     notifyListeners();
   }
 
@@ -22,6 +23,10 @@ class OnBoardingController extends ChangeNotifier {
     notifyListeners();
   }
 
+  onpageIndex(int index){
+    index = onboardList.length;
+    notifyListeners();
+  }
   List<OnBoardData> onboardList = [
     OnBoardData(
         imageSvg: trackyourgoalSvg,

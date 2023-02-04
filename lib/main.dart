@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:ui_app_fitness/const/routs/routes.dart';
 import 'package:ui_app_fitness/const/routs/routesname.dart';
 import 'package:ui_app_fitness/const/string.dart';
@@ -28,21 +29,19 @@ class MyApp extends StatefulWidget {
 class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      // initialRoute: RoutsName.splash,
-      // onGenerateRoute: AppRoutes.generateRoute,
-      home: OnBoardingFlow(),
+    return ScreenUtilInit(
+      designSize: const Size(375, 812),
 
-      // SplasScreen(),
-      // Scaffold(
-      //   appBar: AppBar(
-      //     title: const Text('My app'),
-      //   ),
-      //   body: const Center(
-      //     child: Text('My Name Is Rahul'),
-      //   ),
-      // ),
+      builder: (BuildContext context, Widget? child) {
+
+       return MaterialApp(
+          debugShowCheckedModeBanner: false,
+          // initialRoute: RoutsName.splash,
+          // onGenerateRoute: AppRoutes.generateRoute,
+          home: OnBoardingFlow(),
+        );
+      },
+
     );
   }
 }
