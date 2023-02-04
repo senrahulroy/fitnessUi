@@ -2,7 +2,7 @@ import 'dart:math';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import '../../../const/colors.dart';
+import '../../../main_project/ui/utils/colors_rp.dart';
 import '../../../const/routs/routesname.dart';
 import '../../../const/string.dart';
 import '../../../const/widget/large_main.dart';
