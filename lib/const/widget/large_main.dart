@@ -55,6 +55,7 @@ class LargeMainBtn2 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
+
       onTap: onPressed,
       child: Container(
         width: 315,
